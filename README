@@ -1,21 +1,34 @@
-when you run.sh the container will run the demo in jshell
-===========================================================
-to re-execute it while in jshell..
+This tutorial supports Blog post "JDK 12 Switch Statements - Preview Feature"
+from mvpjava.com
+
+ 
+This has all been setup for you to run within an official Docker container with access to all the JShell *.jsh script files for you to play around with. 
+
+The environment is totally reproducible by simply executing "run.sh"
+after git cloning this repository.
+
+
+=========================================
+Running a .jsh script example from JShell
+=========================================
 
 jshell> /open /root/jdkSwitchDemo.jsh
-==========================================================
+
+
+========================================================
 When you want to list the code snippets in jshell script
+========================================================
 jshell> /list
 
-   1 : System.out.println("MVP Java - JDK 12 Switch Demo")
-   2 : import java.time.DayOfWeek;
-   3 : DayOfWeek day = DayOfWeek.MONDAY;
-   4 : switch (day) {
-           case MONDAY, FRIDAY, SUNDAY -> System.out.println(6);
-           case TUESDAY                -> System.out.println(7);
-           case THURSDAY, SATURDAY     -> System.out.println(8);
-           case WEDNESDAY              -> System.out.println(9);
-       }
 
-then you can /list 1
-for individual snippets
+====================================
+Executing individual JShell snippets
+====================================
+jshell>  /list 1
+
+
+========================================
+Exiting JShell and thus Docker Conatiner
+========================================
+jshell> /exit
+
