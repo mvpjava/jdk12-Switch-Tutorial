@@ -10,10 +10,10 @@ public double calculatePowerUsgae(SYSTEM system)
     {
 	     case POWER ->  200.0D;
 	     case ACS   ->  {
-							//i.e: Sum Power Usage from all Actuators
-							double yesThisIsReallyLocalScope = 10 + 20 + 30;							
-							break yesThisIsReallyLocalScope;
-						}
+				//i.e: Sum Power Usage from all Actuators
+				double yesThisIsReallyLocalScope = 10 + 20 + 30;							
+				break yesThisIsReallyLocalScope;
+			    }
 	     case THERMAL, COMS -> 110.0D;
 	};
 
