@@ -3,6 +3,9 @@
 This tutorial supports Blog post "JDK 12 Switch Statements - Preview Feature"
 from mvpjava.com
 
+YouTube Tutorial:  https://youtu.be/XT38ZXdiPNw
+Blog Post: http://mvpjava.com/jdk-12-switch
+
  
 This has all been setup for you to run within an official Docker container with access to all the JShell *.jsh script files for you to play around with. 
 
